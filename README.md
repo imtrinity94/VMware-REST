@@ -8,3 +8,5 @@ vRO REST Authentication Methods
 
 
 
+vRA Rest Methods
+https://github.com/vmware-archive/vra-api-samples-for-postman
