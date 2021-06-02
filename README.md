@@ -6,8 +6,11 @@ vRO REST Authentication Methods
 | vSphere |	SSO |	Holder-of-key (HoK) token	| GZIP, base64-encoded string |
 | vRA	| vIDM	| OAuth bearer access token	| Plain unreadable |
 
+## vmwvro - A simple Python library to interface with VMware vRealize Orchestrator
+https://pypi.org/project/vmwvro/#files 
 
 
+====================================================================================================================
 vRA REST Methods <br>
 https://github.com/vmware-archive/vra-api-samples-for-postman <br>
 https://www.thehumblelab.com/vrealize-automation-api-with-python/ <br>
