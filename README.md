@@ -11,3 +11,4 @@ vRO REST Authentication Methods
 vRA REST Methods <br>
 https://github.com/vmware-archive/vra-api-samples-for-postman <br>
 https://www.thehumblelab.com/vrealize-automation-api-with-python/ <br>
+https://github.com/imtrinity94/postman-collections <br>
