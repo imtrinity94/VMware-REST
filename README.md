@@ -8,7 +8,7 @@
 | vRA	| vIDM	| OAuth bearer access token	| Plain unreadable |
 
 ### vmwvro - A simple Python library to interface with VMware vRealize Orchestrator
-https://pypi.org/project/vmwvro/#files 
+https://pypi.org/project/vmwvro/
 
 ### vroParse - A Python library that parses scriptable tasks out of vRO Workflow XML, saves them as discrete files.
 https://pypi.org/project/vroParse/
