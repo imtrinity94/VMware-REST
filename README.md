@@ -1,5 +1,5 @@
 # vRO
-##  vRO REST Authentication Methods
+###  vRO REST Authentication Methods
 
 | Authentication Provider |	MiddleWare |	Access Scheme |	Encoding |
 |-------------------------|-------------------------|------------------------------|-----------------------------|
@@ -14,7 +14,7 @@ https://pypi.org/project/vmwvro/#files
 ==============================================================================
 # vRA
 
-vRA REST Methods <br>
+### vRA REST Methods <br>
 https://github.com/vmware-archive/vra-api-samples-for-postman <br>
 https://www.thehumblelab.com/vrealize-automation-api-with-python/ <br>
 https://github.com/imtrinity94/postman-collections <br>
