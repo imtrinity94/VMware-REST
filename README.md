@@ -35,6 +35,9 @@ The string after `X-VMWARE-VCLOUD-ACCESS-TOKEN` is the bearer token <br>
 ============================================================================
 # vSphere
 
+### pyVmomi - A Python SDK for the VMware vSphere API that allows you to manage ESX, ESXi, and vCenter.
+https://pypi.org/project/pyvmomi/
+
 ## Use of Managed Object References by the vSphere Provider
 
 Unlike the vSphere client, many resources in the vSphere take Managed Object IDs (or UUIDs when provided and practical) , which provides a stable interface for providing necessary data to downstream resources, in addition to minimizing the bugs that can arise from the flexibility in how an individual object's name or inventory path can be supplied.
