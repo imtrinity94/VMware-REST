@@ -20,3 +20,13 @@ https://pypi.org/project/vroParse/
 https://github.com/vmware-archive/vra-api-samples-for-postman <br>
 https://www.thehumblelab.com/vrealize-automation-api-with-python/ <br>
 https://github.com/imtrinity94/postman-collections <br>
+
+
+==============================================================================
+#vCD
+
+X-VCLOUD-AUTHORIZATION: 08a321735de84f1d9ec80c3b3e18fa8b
+X-VMWARE-VCLOUD-ACCESS-TOKEN: eyJh...*long_text*....CX3iYWA
+
+The string after `X-VCLOUD-AUTHORIZATION:` is the old (deprecated) token.
+The string after `X-VMWARE-VCLOUD-ACCESS-TOKEN` is the bearer token
