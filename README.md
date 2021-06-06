@@ -25,8 +25,8 @@ https://github.com/imtrinity94/postman-collections <br>
 ==============================================================================
 #vCD
 
-X-VCLOUD-AUTHORIZATION: 08a321735de84f1d9ec80c3b3e18fa8b
-X-VMWARE-VCLOUD-ACCESS-TOKEN: eyJh...*long_text*....CX3iYWA
+X-VCLOUD-AUTHORIZATION: 08a321735de84f1d9ec80c3b3e18fa8b <br>
+X-VMWARE-VCLOUD-ACCESS-TOKEN: eyJh...*long_text*....CX3iYWA <br>
 
-The string after `X-VCLOUD-AUTHORIZATION:` is the old (deprecated) token.
-The string after `X-VMWARE-VCLOUD-ACCESS-TOKEN` is the bearer token
+The string after `X-VCLOUD-AUTHORIZATION:` is the old (deprecated) token <br>
+The string after `X-VMWARE-VCLOUD-ACCESS-TOKEN` is the bearer token <br>
