@@ -44,6 +44,9 @@ The string after `X-VMWARE-VCLOUD-ACCESS-TOKEN` is the bearer token <br>
 ### pyVmomi - A Python SDK for the VMware vSphere API that allows you to manage ESX, ESXi, and vCenter.
 https://pypi.org/project/pyvmomi/
 
+### vmwc - Simplified VMWare API client for Python (based on pyVmomi)
+https://pypi.org/project/vmwc/
+
 ## Use of Managed Object References by the vSphere Provider
 
 Unlike the vSphere client, many resources in the vSphere take Managed Object IDs (or UUIDs when provided and practical) , which provides a stable interface for providing necessary data to downstream resources, in addition to minimizing the bugs that can arise from the flexibility in how an individual object's name or inventory path can be supplied.
@@ -76,3 +79,15 @@ The Managed Object Browser (MOB) allows one to browse the entire vSphere invento
 
 #### NOTE:
 > The MOB also offers API method invocation capabilities, and for security reasons should be used sparingly. Modern vSphere installations may have the MOB disabled by default, at the very least on ESXi systems. For more information on current security best practices related to the MOB on ESXi, click [here](https://docs.vmware.com/en/VMware-vSphere/6.5/com.vmware.vsphere.security.doc/GUID-0EF83EA7-277C-400B-B697-04BDC9173EA3.html).
+
+============================================================================
+# LogInsight
+
+### pyloginsight - A Python SDK for LogInsight
+https://pypi.org/project/pyloginsight/
+
+============================================================================
+# SRM
+
+### SRM_client - A Python SDK for SRM
+https://pypi.org/project/srm_client/
