@@ -10,8 +10,11 @@
 ### vmwvro - A simple Python library to interface with VMware vRealize Orchestrator
 https://pypi.org/project/vmwvro/
 
-### vroParse - A Python library that parses scriptable tasks out of vRO Workflow XML, saves them as discrete files.
+### vroParse - A Python library that parses scriptable tasks out of vRO Workflow XML, saves them as discrete files
 https://pypi.org/project/vroParse/
+
+### Ansible module for executing vRealize Orchestrator workflows
+https://github.com/tonyskidmore/vmware_vro_workflow
 
 ============================================================================
 # vRA
@@ -24,6 +27,9 @@ https://github.com/imtrinity94/postman-collections <br>
 
 ============================================================================
 # vCD
+
+### pyvcloud - A Python SDK for VMware vCloud Director
+https://pypi.org/project/pyvcloud/
 
 X-VCLOUD-AUTHORIZATION: 08a321735de84f1d9ec80c3b3e18fa8b <br>
 X-VMWARE-VCLOUD-ACCESS-TOKEN: eyJh...*long_text*....CX3iYWA <br>
