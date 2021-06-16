@@ -96,3 +96,12 @@ https://pypi.org/project/pyloginsight/
 
 ### SRM_client - A Python SDK for SRM
 https://pypi.org/project/srm_client/
+
+============================================================================
+# Usage Meter
+
+Usage Meter API uses Swagger UI for all REST API service calls. How you access the API reference depends on the Usage Meter version installed.
+
+#### If Usage Meter 3.6 or earlier is installed, go to https://$um/um, where $um denotes an instance of Usage Meter.
+#### If vRealize Automation 4.2 or later is installed, go to https://$um/api/v1, where $um denotes an instance of Usage Meter.
+
