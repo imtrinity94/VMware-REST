@@ -19,6 +19,11 @@ https://github.com/tonyskidmore/vmware_vro_workflow
 ============================================================================
 # vRA
 
+vRealize Automation API uses OpenAPI for all REST API service calls. How you access the API reference depends on the vRealize Automation version installed.
+
+#### If vRealize Automation 7.6 or earlier is installed, go to https://$vRA/component-registry/services/docs, where $vRA denotes an instance of vRealize Automation.
+#### If vRealize Automation 8.0 or later is installed, go to https://$vRA/automation-ui/api-docs, where $vRA is the hostname of your vRealize Automation appliance.
+
 ### vRA REST Methods <br>
 https://github.com/vmware-archive/vra-api-samples-for-postman <br>
 https://www.thehumblelab.com/vrealize-automation-api-with-python/ <br>
