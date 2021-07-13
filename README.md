@@ -33,6 +33,19 @@ https://github.com/imtrinity94/postman-collections <br>
 ============================================================================
 # vCD
 
+
+
+| Revision Date	| Description	| Release Vehicle	| Status |
+|----------------|----------------|------------------------|------------|
+|19 Sep 2019	|API Version 33.0	|vCloud Director 10.0	|supported|
+|28 MAR 2019	|API Version 32.0	|vCloud Director 9.7	|supported|
+|04 OCT 2018	|API Version 31.0	|vCloud Director 9.5	|supported|
+|27 FEB 2018	|API Version 30.0	|vCloud Director 9.1	|supported|
+|25 SEP 2017	|API Version 29.0	|vCloud Director 9.0	|deprecated|
+|21 FEB 2017	|API Version 27.0	|vCloud Director 8.20	|deprecated|
+|26 MAY 2016	|API Version 20.0	|vCloud Director 8.10	|not supported|
+|N/A	|API Version 19.0 and earlier	|vCloud Air Compute Service	|not supported|
+
 ### pyvcloud - A Python SDK for VMware vCloud Director
 https://pypi.org/project/pyvcloud/
 
