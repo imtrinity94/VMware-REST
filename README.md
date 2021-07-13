@@ -37,6 +37,7 @@ https://github.com/imtrinity94/postman-collections <br>
 
 | Revision Date	| Description	| Release Vehicle	| Status |
 |----------------|----------------|------------------------|------------|
+|9 Apr 2020	|API Version 34.0	|VMware Cloud Director 10.1	|supported|
 |19 Sep 2019	|API Version 33.0	|vCloud Director 10.0	|supported|
 |28 MAR 2019	|API Version 32.0	|vCloud Director 9.7	|supported|
 |04 OCT 2018	|API Version 31.0	|vCloud Director 9.5	|supported|
