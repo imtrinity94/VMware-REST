@@ -1,3 +1,4 @@
+# https://virtualg.uk/getting-started-with-the-vrops-rest-api
 <#Authentication
 The most challenging part of working out how to use the API was how the authentication works. Essentially, you need to form the authentication URL, create a JSON formatted credential then obtain a session ID for the subsequent requests.
 
@@ -5,6 +6,7 @@ I have put all of this together in the below sample PowerShell code.
 
 You’ll probably not want to store credentials in the script, so be sure to find an alternative way to obtain the password (via Read-Host or a call to your password database API
 #>
+
 ## Global Variables
 $vrops_server = ""
 $vrops_username = ""
@@ -48,10 +50,11 @@ Catch {
 ## Get Session ID from response
 $rest_authentication_session_xml = @{"Authorization"="vRealizeOpsToken "+$rest_authenticate.'auth-token'.token 
 "Accept"="application/xml"}
-Get Email Plugins
+
+<# Get Email Plugins
 Once you have authenticated to the API, you can use the $rest_authentication_session_xml variable, containing the Session ID for subsequent requests.
 
-The next code snippet will output all configured vROps email plugins
+The next code snippet will output all configured vROps email plugins #>
 
 $rest_url_email_plugins = $rest_url_base+"alertplugins"
 Try {
@@ -76,8 +79,10 @@ Catch {
   Write-Host "Error getting email plugins. Exiting" -ForegroundColor Red
   exit
 }
+<#
 Get Remote Collectors
 Next, you can amend the above code snippet to get all configured remote collectors
+#>
 
 $rest_url_remote_collectors = $rest_url_base+"collectors
 Try {
@@ -98,8 +103,9 @@ Catch {
     Write-Host "Error getting remote collectors. Exiting" -ForegroundColor Red
     exit
   }
-Get Notification Rules
-As with the other code snippets, you can use the API to obtain all the notification rules:
+
+#Get Notification Rules
+#As with the other code snippets, you can use the API to obtain all the notification rules:
 
 $rest_url_notification_rules = $rest_url_base+"notifications/rules"
 
@@ -118,7 +124,6 @@ Catch {
     Write-Host "Error getting notification rules. Exiting" -ForegroundColor Red
     exit
 }
-Official Documentation
-Once you have tried the above examples, check out the official documentation by appending /suite-api/doc/swagger-ui.html to the end of your vROps install FQDN.
-
-This will open the vRealize Operations Manager API site and give you all the available API commands which you can substitute in the above code examples.
+#Official Documentation
+#Once you have tried the above examples, check out the official documentation by appending /suite-api/doc/swagger-ui.html to the end of your vROps install FQDN.
+#This will open the vRealize Operations Manager API site and give you all the available API commands which you can substitute in the above code examples.
