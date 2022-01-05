@@ -60,6 +60,9 @@ The string after `X-VMWARE-VCLOUD-ACCESS-TOKEN` is the bearer token <br>
 ============================================================================
 # vSphere
 
+### VMware OpenAPI Generator 
+https://github.com/vmware/vmware-openapi-generator
+
 ### pyVmomi - A Python SDK for the VMware vSphere API that allows you to manage ESX, ESXi, and vCenter.
 https://pypi.org/project/pyvmomi/
 
